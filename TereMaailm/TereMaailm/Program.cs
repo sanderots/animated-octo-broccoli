@@ -14,12 +14,24 @@ namespace TereMaailm
             {
                 Console.WriteLine("Tere {0}", v);
             }
+            internal static void Tervita(string[] nimed)
+            {
+                for (int i = 0; i < nimed.Length; i++)
+                {
+                    Tervita(nimed[i]);
+                }
+            }
             static void Main(string[] args)
             {
                 Console.WriteLine("Tere Maailm");
                 Console.WriteLine("joujous");
                 Console.WriteLine("teretere");
                 Tervitaja.Tervita("Maailm");
+                Tervitaja.Tervita(new string[] { "Sander", "Jaan", "Toomas" });
+
+
+                
+
             }
         }
     }
