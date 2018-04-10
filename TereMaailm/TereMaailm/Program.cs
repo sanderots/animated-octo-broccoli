@@ -8,13 +8,20 @@ namespace TereMaailm
 {
     class Program
     {
-        static void Main(string[] args)
+        internal class Tervitaja
         {
-            Console.WriteLine("Tere Maailm");
-            Console.WriteLine("joujous");
-            Console.WriteLine("teretere");
-            Console.WriteLine("teretere");
-            Console.WriteLine("asd");
+            internal static void Tervita(string v)
+            {
+                Console.WriteLine("Tere {0}", v);
+            }
+            static void Main(string[] args)
+            {
+                Console.WriteLine("Tere Maailm");
+                Console.WriteLine("joujous");
+                Console.WriteLine("teretere");
+                Tervitaja.Tervita("Maailm");
+            }
         }
     }
+
 }
