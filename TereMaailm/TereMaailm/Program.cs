@@ -14,6 +14,7 @@ namespace TereMaailm
             Console.WriteLine("joujous");
             Console.WriteLine("teretere");
             Console.WriteLine("teretere");
+            Console.WriteLine("asd");
         }
     }
 }
