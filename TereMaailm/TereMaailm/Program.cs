@@ -12,6 +12,8 @@ namespace TereMaailm
         {
             Console.WriteLine("Tere Maailm");
             Console.WriteLine("joujous");
+            Console.WriteLine("teretere");
+            Console.WriteLine("teretere");
         }
     }
 }
